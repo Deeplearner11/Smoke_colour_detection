@@ -10,3 +10,7 @@ A transparent mask is created with the chosen boundary color. Another mask is cr
 
 Highlighting and Overlay:
 The transparent mask's alpha channel is adjusted based on the smoke mask (higher smoke probability = higher transparency). This mask is blended with the ROI for a translucent smoke effect. Finally, the masked ROI is overlaid on the original image.
+
+![smoke_colour_4](https://github.com/Deeplearner11/Smoke_colour_detection/assets/87230145/5a9de21a-c96f-40ff-a67b-4aa4b034ed6b)
+
+![Uploading smoke_colour_2.png…]()
