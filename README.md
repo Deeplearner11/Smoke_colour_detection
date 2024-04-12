@@ -13,4 +13,8 @@ The transparent mask's alpha channel is adjusted based on the smoke mask (higher
 
 ![smoke_colour_4](https://github.com/Deeplearner11/Smoke_colour_detection/assets/87230145/5a9de21a-c96f-40ff-a67b-4aa4b034ed6b)
 
-![Uploading smoke_colour_2.png…]()
+![smoke_colour_2](https://github.com/Deeplearner11/Smoke_colour_detection/assets/87230145/d9dc76f8-e74b-46b8-a97f-410ea6718455)
+
+Average Color Calculation (if smoke detected):
+It calculates the average Blue, Green, and Red values within the smoke region. This is done using OpenCV's cv2.sumElems function, which efficiently sums the elements of a masked array.
+The calculation involves multiplying each color channel with the smoke_mask to consider only smoke pixels. The sum is then divided by the total smoke pixel count to get the average value for each channel.
